@@ -45,6 +45,9 @@
     <ClCompile Include="6.CoordinateSystems.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
+    <ClCompile Include="7.Camera.cpp">
+      <Filter>Source Files\Getting Started</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="shader_m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

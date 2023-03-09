@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="6.CoordinateSystems.cpp" />
+    <ClCompile Include="7.Camera.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="2.HelloTriangle.cpp" />
     <ClCompile Include="1.HelloWindow.cpp" />
@@ -156,6 +157,7 @@
     <ClCompile Include="5.Transformations.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="shader_m.h" />
     <ClInclude Include="shader_s.h" />
