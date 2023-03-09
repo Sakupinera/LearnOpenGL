@@ -39,6 +39,9 @@
     <ClCompile Include="Textures.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
+    <ClCompile Include="Transformations.cpp">
+      <Filter>Source Files\Getting Started</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
@@ -62,6 +65,12 @@
       <Filter>Source Files\Shaders</Filter>
     </None>
     <None Include="shaders_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="transformations_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="transformations_vert.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>
