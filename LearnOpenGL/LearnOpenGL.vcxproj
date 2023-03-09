@@ -151,15 +151,22 @@
     <ClCompile Include="HelloTriangle.cpp" />
     <ClCompile Include="HelloWindow.cpp" />
     <ClCompile Include="Shaders.cpp" />
+    <ClCompile Include="Textures.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="resource.h" />
     <ClInclude Include="shader_s.h" />
+    <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="texture_frag.glsl" />
     <None Include="shaders_frag.glsl" />
     <None Include="texture_vert.glsl" />
     <None Include="shaders_vert.glsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\img\awesomeface.png" />
+    <Image Include="..\img\container.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
