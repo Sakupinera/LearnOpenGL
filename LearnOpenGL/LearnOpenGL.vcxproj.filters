@@ -24,22 +24,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWindow.cpp">
+    <ClCompile Include="1.HelloWindow.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>Source Files\glad</Filter>
     </ClCompile>
-    <ClCompile Include="HelloTriangle.cpp">
+    <ClCompile Include="2.HelloTriangle.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
-    <ClCompile Include="Shaders.cpp">
+    <ClCompile Include="3.Shaders.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
-    <ClCompile Include="Textures.cpp">
+    <ClCompile Include="4.Textures.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
-    <ClCompile Include="Transformations.cpp">
+    <ClCompile Include="5.Transformations.cpp">
+      <Filter>Source Files\Getting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="6.CoordinateSystems.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
   </ItemGroup>
@@ -51,6 +54,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_m.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -71,6 +77,12 @@
       <Filter>Source Files\Shaders</Filter>
     </None>
     <None Include="transformations_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="coordinateSystems_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="coordinateSystems_vert.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>

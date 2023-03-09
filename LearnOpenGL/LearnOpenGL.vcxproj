@@ -147,19 +147,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="6.CoordinateSystems.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="HelloTriangle.cpp" />
-    <ClCompile Include="HelloWindow.cpp" />
-    <ClCompile Include="Shaders.cpp" />
-    <ClCompile Include="Textures.cpp" />
-    <ClCompile Include="Transformations.cpp" />
+    <ClCompile Include="2.HelloTriangle.cpp" />
+    <ClCompile Include="1.HelloWindow.cpp" />
+    <ClCompile Include="3.Shaders.cpp" />
+    <ClCompile Include="4.Textures.cpp" />
+    <ClCompile Include="5.Transformations.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
+    <ClInclude Include="shader_m.h" />
     <ClInclude Include="shader_s.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="coordinateSystems_frag.glsl" />
+    <None Include="coordinateSystems_vert.glsl" />
     <None Include="texture_frag.glsl" />
     <None Include="shaders_frag.glsl" />
     <None Include="texture_vert.glsl" />
