@@ -63,6 +63,9 @@
     <ClCompile Include="4.LightingMaps.cpp">
       <Filter>Source Files\Lighting</Filter>
     </ClCompile>
+    <ClCompile Include="5.LightCasters.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
@@ -152,6 +155,18 @@
       <Filter>Source Files\Shaders</Filter>
     </None>
     <None Include="2.4.lightCube_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="lightCasters_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="lightCasters_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="2.5.lightCube_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="2.5.lightCube_frag.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>
