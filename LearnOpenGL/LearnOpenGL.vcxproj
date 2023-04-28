@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="6.CoordinateSystems.cpp" />
+    <ClCompile Include="6.MultipleLights.cpp" />
     <ClCompile Include="7.Camera.cpp" />
     <ClCompile Include="2.BasicLighting.cpp" />
     <ClCompile Include="1.Colors.cpp" />
@@ -177,6 +178,8 @@
     <None Include="2.4.lightCube_vert.glsl" />
     <None Include="2.5.lightCube_frag.glsl" />
     <None Include="2.5.lightCube_vert.glsl" />
+    <None Include="2.6.lightCube_frag.glsl" />
+    <None Include="2.6.lightCube_vert.glsl" />
     <None Include="basicLighting_frag.glsl" />
     <None Include="basicLighting_vert.glsl" />
     <None Include="colors_frag.glsl" />
@@ -191,6 +194,8 @@
     <None Include="lightingMaps_vert.glsl" />
     <None Include="materials_frag.glsl" />
     <None Include="materials_vert.glsl" />
+    <None Include="multipleLights_frag.glsl" />
+    <None Include="multipleLights_vert.glsl" />
     <None Include="texture_frag.glsl" />
     <None Include="shaders_frag.glsl" />
     <None Include="texture_vert.glsl" />

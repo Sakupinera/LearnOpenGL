@@ -66,6 +66,9 @@
     <ClCompile Include="5.LightCasters.cpp">
       <Filter>Source Files\Lighting</Filter>
     </ClCompile>
+    <ClCompile Include="6.MultipleLights.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
@@ -167,6 +170,18 @@
       <Filter>Source Files\Shaders</Filter>
     </None>
     <None Include="2.5.lightCube_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="multipleLights_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="multipleLights_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="2.6.lightCube_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="2.6.lightCube_frag.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>
