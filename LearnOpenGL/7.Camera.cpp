@@ -11,8 +11,6 @@
 
 #include <iostream>
 
-#define _Camera_
-
 #ifdef _Camera_
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);

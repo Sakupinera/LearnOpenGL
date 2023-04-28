@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClCompile Include="6.CoordinateSystems.cpp" />
     <ClCompile Include="7.Camera.cpp" />
+    <ClCompile Include="Colors.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="2.HelloTriangle.cpp" />
     <ClCompile Include="1.HelloWindow.cpp" />
@@ -164,8 +165,12 @@
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="colors_frag.glsl" />
+    <None Include="colors_vert.glsl" />
     <None Include="coordinateSystems_frag.glsl" />
     <None Include="coordinateSystems_vert.glsl" />
+    <None Include="lightCube_frag.glsl" />
+    <None Include="lightCube_vert.glsl" />
     <None Include="texture_frag.glsl" />
     <None Include="shaders_frag.glsl" />
     <None Include="texture_vert.glsl" />

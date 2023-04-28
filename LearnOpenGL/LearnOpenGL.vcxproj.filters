@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Shaders">
       <UniqueIdentifier>{977ac7ae-9eb4-441f-a4cf-75cf979a559b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{97695ffe-e955-40f2-b39d-0a38241ff902}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.HelloWindow.cpp">
@@ -47,6 +50,9 @@
     </ClCompile>
     <ClCompile Include="7.Camera.cpp">
       <Filter>Source Files\Getting Started</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Source Files\Lighting</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +95,18 @@
       <Filter>Source Files\Shaders</Filter>
     </None>
     <None Include="coordinateSystems_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="colors_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="colors_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="lightCube_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="lightCube_frag.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>
