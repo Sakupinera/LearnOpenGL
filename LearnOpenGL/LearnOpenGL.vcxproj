@@ -157,6 +157,7 @@
     <ClCompile Include="3.Shaders.cpp" />
     <ClCompile Include="4.Textures.cpp" />
     <ClCompile Include="5.Transformations.cpp" />
+    <ClCompile Include="Materials.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="camera.h" />
@@ -168,6 +169,8 @@
   <ItemGroup>
     <None Include="2.2.lightCube_frag.glsl" />
     <None Include="2.2.lightCube_vert.glsl" />
+    <None Include="2.3.lightCube_frag.glsl" />
+    <None Include="2.3.lightCube_vert.glsl" />
     <None Include="basicLighting_frag.glsl" />
     <None Include="basicLighting_vert.glsl" />
     <None Include="colors_frag.glsl" />
@@ -176,6 +179,8 @@
     <None Include="coordinateSystems_vert.glsl" />
     <None Include="2.1.lightCube_frag.glsl" />
     <None Include="2.1.lightCube_vert.glsl" />
+    <None Include="materials_frag.glsl" />
+    <None Include="materials_vert.glsl" />
     <None Include="texture_frag.glsl" />
     <None Include="shaders_frag.glsl" />
     <None Include="texture_vert.glsl" />
