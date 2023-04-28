@@ -10,8 +10,6 @@
 #include "camera.h"
 #include "shader_m.h"
 
-#define Materials
-
 #ifdef Materials
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);

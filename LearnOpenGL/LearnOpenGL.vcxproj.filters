@@ -51,13 +51,16 @@
     <ClCompile Include="7.Camera.cpp">
       <Filter>Source Files\Getting Started</Filter>
     </ClCompile>
-    <ClCompile Include="Colors.cpp">
+    <ClCompile Include="1.Colors.cpp">
       <Filter>Source Files\Lighting</Filter>
     </ClCompile>
-    <ClCompile Include="BasicLighting.cpp">
+    <ClCompile Include="2.BasicLighting.cpp">
       <Filter>Source Files\Lighting</Filter>
     </ClCompile>
-    <ClCompile Include="Materials.cpp">
+    <ClCompile Include="3.Materials.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="4.LightingMaps.cpp">
       <Filter>Source Files\Lighting</Filter>
     </ClCompile>
   </ItemGroup>
@@ -137,6 +140,18 @@
       <Filter>Source Files\Shaders</Filter>
     </None>
     <None Include="2.3.lightCube_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="lightingMaps_vert.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="lightingMaps_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="2.4.lightCube_frag.glsl">
+      <Filter>Source Files\Shaders</Filter>
+    </None>
+    <None Include="2.4.lightCube_vert.glsl">
       <Filter>Source Files\Shaders</Filter>
     </None>
   </ItemGroup>
